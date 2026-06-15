@@ -1,0 +1,82 @@
+.about-us {
+  padding-top: 100px;
+}
+
+section {
+  margin-top: 0;
+}
+
+.text-title h2 {
+  margin: 22px 0 0;
+}
+
+.text-title__japanese {
+  color: #1a458a;
+}
+
+.social-media-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.social-media-item:first-child {
+  margin-top: 30px;
+}
+.social-media-item-icon {
+  width: 50px;
+  height: 50px;
+}
+.social-media-item-icon img {
+  width: 50px;
+  height: 50px;
+}
+.social-media-item a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1a458a;
+  text-decoration: none;
+  color: #1a458a;
+  display: inline-block;
+  position: relative;
+}
+.social-media-item a::after {
+  background-color: #1a458a;
+  bottom: -1px;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform 0.3s;
+  width: 100%;
+}
+.social-media-item a:hover::after {
+  transform: scale(1, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .about-us {
+    margin-top: 90px;
+    padding-top: unset;
+  }
+  .social-media {
+    margin-top: 2rem;
+  }
+  .social-media-item {
+    margin: 1rem 1.25rem;
+  }
+  .social-media-item-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .social-media-item-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  .text-box {
+    margin-top: 40px;
+  }
+}
+
+/*# sourceMappingURL=about_us.css.map */
